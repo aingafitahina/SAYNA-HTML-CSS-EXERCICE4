@@ -1,0 +1,41 @@
+
+/* générale*/
+@font-face {
+    font-family:'spide' ;
+    src: url("../documents/Typo-FarFromHomecoming.woff2");
+}
+:root{
+    --red:#B11313;
+    --blue:#114c92;
+}
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+/* mise en forme 1er section*/
+.section1-spide-noir{
+    background: url(../images/img19.png);
+    background-size: cover;
+    background-position: center;
+    
+    height: 30em;
+}
+h1{
+    padding-top: 20%;
+    font-family: 'spide';
+    font-weight: 42;
+}
+
+/* mise en forme 2em section*/
+
+.section2-spide-bleu{
+    background-color: var(--blue);
+    background-size: cover;
+    height: 30em;
+}
+.section-spide-fondation{
+    background: url(../images/img20.png);
+    height: 20em;
+    background-size: cover; 
+}

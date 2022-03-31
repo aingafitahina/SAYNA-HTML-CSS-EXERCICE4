@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --red:#B11313;
+    --blue:#114c92;
+    --yellow :#F1C530;
+
+}
+
+@font-face {
+    font-family: 'spide';
+    src: url(../documents/Typo-FarFromHomecoming.woff2);
+}
+
+/* style pour chaque */
+h1{
+    font-family:'italic';
+    color: aliceblue;
+}
+.border2{
+    border:5px solid black;
+    border-top:none;
+    border-radius:0 0 20px 20px;
+    padding: 2%;
+}
+
+.section1{
+    background: var(--yellow);
+}

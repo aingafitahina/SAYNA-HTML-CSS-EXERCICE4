@@ -1,0 +1,179 @@
+/* généralité*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+}
+:root{
+    --red:#B11313;
+    --blue:#114c92;
+}
+@font-face{
+    font-family: 'far_from_homecomingregular';
+    src: url("../police/Far-From\ Homecoming\ Updated.otf");
+
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('../police/Montserrat-VariableFont_wght.ttf');
+}
+
+header{
+    margin: 0;
+    background-color: var(--red);
+    height: 5em;  
+}
+
+
+/* style nav*/
+#navigation-web a {
+    color: aliceblue;
+    text-decoration: none;
+}
+#navigation-mobile{
+    display: none;
+}
+
+/* responsive */
+
+@media screen and (max-width:766px) {
+    #navigation-web a{
+        display: none;
+          
+    }
+
+    #logo{
+        
+        display: inline-flex;
+    }
+    #logo1{
+        padding: 3px; 
+    }
+
+    .spide{
+        height: auto;
+    }
+    #spide-red{
+        background-color: var(--red);
+        
+    }
+}
+
+/* mise en forme section spide en rouge*/
+
+h1{
+    color: aliceblue;
+    font-family: 'far_from_homecomingregular';
+    font-size: 5em;
+}
+h3{
+    color: aliceblue;
+    font-family: 'far_from_homecomingregular';
+    font-size: 3em;
+}
+
+h6 , p{
+    font-family: 'montserrat';
+    color: aliceblue;
+    font-size: 20px;
+}
+.section1{
+    height: 100%;
+}
+#spide-red{
+    background-color: var(--red);
+    height: 10%;
+}
+#spide{    
+   
+    background-image: url(../images/img1.png);
+    background-size: cover;
+    height: 60em;
+    width: 100%; 
+}
+.spide-text{
+    position: relative;
+    top: 30%;
+}
+.bouton{
+    width: 200px;
+    border-radius: 30px;
+}
+figcaption , pre {
+    text-align: justify;
+    width: 75%;
+    margin: auto;
+    font-family: 'montserrat';
+    color: aliceblue;
+    font-size: 14px;
+}
+
+/* mise en forme 2em  section spide-blue background bleu*/
+#spide-blue{
+    background-image: url(../images/img5.png);
+    height: 50em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: var(--blue) ;   
+}
+.spide-formulaire{
+float: right;
+padding-top: 10%;
+margin-right: 5%;
+border-radius: 30px;
+}
+    
+
+/* mise en place footer*/
+footer{
+    background: black;
+    height: 15em;
+}
+
+
+
+@media  screen and (max-width:769px) {
+    #foot-web{
+        display: none;
+
+    }
+    
+}
+@media screen and (min-width:769px){
+    .foot-mobile{
+        display: none;
+    }
+    .foot-right{
+        float: right;
+    }
+}
+
+/* mise en forme des logo sur la section footer*/
+
+#logo-facebook{
+    display: inline-flex;
+    text-decoration: none;
+    margin: auto;
+    width: 25%;
+}
+#logo-facebook1{
+    
+    margin: 5%;
+    border-radius: 50%;
+    width: 10%;
+    padding: 5px;
+    
+}
+#selecteur{
+    background-color: var(--red);
+    border-radius: 20px;
+    width: 200%;
+    color: aliceblue;
+    border-style: none;
+}
+nav ul>li{
+    color: aliceblue;
+    font-family: 'montserrat';
+}
