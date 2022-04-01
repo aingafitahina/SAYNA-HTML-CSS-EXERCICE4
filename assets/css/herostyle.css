@@ -1,9 +1,6 @@
 
 /* générale*/
-@font-face {
-    font-family:'spide' ;
-    src: url("../documents/Typo-FarFromHomecoming.woff2");
-}
+
 :root{
     --red:#B11313;
     --blue:#114c92;
@@ -12,6 +9,75 @@
     
     margin: 0;
     padding: 0;
+}
+
+@font-face{
+    font-family: 'far_from_homecomingregular';
+    src: url("../police/Far-From\ Homecoming\ Updated.otf");
+
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url('../police/Montserrat-VariableFont_wght.ttf');
+}
+
+/* header*/
+h1{
+    font-family:'far_from_homecomingregular' ;
+    color: antiquewhite;
+    font-size: 5.5em;
+}
+h2{
+    font-family: 'montserrat';
+    font-size: 20px;
+}
+
+h3{
+    font-family:'far_from_homecomingregular' ;
+    color: antiquewhite;
+
+    font-size: 3.5em; 
+}
+
+header{
+    margin: 0;
+    background-color: var(--blue);
+    height: 5em;  
+}
+
+
+/* style nav*/
+#navigation-web a {
+    color: aliceblue;
+    text-decoration: none;
+}
+#navigation-mobile{
+    display: none;
+}
+
+/* responsive */
+
+@media screen and (max-width:766px) {
+    #navigation-web a{
+        display: none;
+          
+    }
+
+    #logo{
+        
+        display: inline-flex;
+    }
+    #logo1{
+        padding: 3px; 
+    }
+
+    .spide{
+        height: auto;
+    }
+    #spide-red{
+        background-color: var(--red);
+        
+    }
 }
 /* mise en forme 1er section*/
 .section1-spide-noir{
@@ -38,4 +104,14 @@ h1{
     background: url(../images/img20.png);
     height: 20em;
     background-size: cover; 
+}
+
+/*section3 fond-bleu*/
+.section3-fond-bleu{
+    background-color: var(--blue);
+}
+
+/* section4 fond-rouge*/
+.section4-fond-rouge{
+    background-color: var(--red);
 }

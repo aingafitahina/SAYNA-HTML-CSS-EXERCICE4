@@ -9,6 +9,7 @@ body{
 :root{
     --red:#B11313;
     --blue:#114c92;
+    --yellow: #F1C530;
 }
 @font-face{
     font-family: 'far_from_homecomingregular';
@@ -19,7 +20,24 @@ body{
     font-family: 'montserrat';
     src: url('../police/Montserrat-VariableFont_wght.ttf');
 }
+h1{
+    font-family:'far_from_homecomingregular' ;
+    color: antiquewhite;
+    font-size: 5.5em;
+}
 
+h3{
+    font-family:'far_from_homecomingregular' ;
+    color: antiquewhite;
+
+    font-size: 3.5em; 
+}
+
+p{
+    font-family: 'montserrat';
+    color: antiquewhite;
+    font-size: 14px;
+}
 header{
     margin: 0;
     background-color: var(--red);
@@ -61,84 +79,37 @@ header{
     }
 }
 
-/* mise en forme section spide en rouge*/
-
-h1{
-    color: aliceblue;
-    font-family: 'far_from_homecomingregular';
-    font-size: 5em;
-}
-h3{
-    color: aliceblue;
-    font-family: 'far_from_homecomingregular';
-    font-size: 3em;
-}
-
-h6 , p{
-    font-family: 'montserrat';
-    color: aliceblue;
-    font-size: 18px;
-}
+/*mise en place du style section1*/
 .section1{
-    height: 100%;
+    background-color: var(--yellow);
+    margin: 0;
+
 }
-#spide-red{
+
+/*section2 avec fond rouge */
+
+.section2{
     background-color: var(--red);
-    height: 10%;
+    height: 50vh;
+    width: 100%;
+
 }
-#spide{    
-   
-    background-image: url(../images/img1.png);
-    background-size: cover;
-    height: 60em;
-    width: 100%; 
-}
-.spide-text{
-    position: relative;
-    top: 30%;
+
+/*section 3 avec fond bleu*/
+.section3{
+    background-color: var(--blue);
+    height: 35vh;
+
 }
 .bouton{
     width: 200px;
     border-radius: 30px;
 }
-figcaption , pre {
-    text-align: justify;
-    width: 75%;
-    margin: auto;
-    font-family: 'montserrat';
+div > a{
+    text-decoration: none;
     color: aliceblue;
-    font-size: 14px;
 }
 
-/* mise en forme 2em  section spide-blue background bleu*/
-#spide-blue{
-    background-image: url(../images/img5.png);
-    height: 50em;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-color: var(--blue) ;   
-}
-.spide-formulaire{
-float: right;
-padding-top: 5%;
-margin-right: 5%;
-border-radius: 30px;
-}
-
-#image-rouge-spide-noir{
-    background-image: url(../images/img6.png);
-    background-color: #B11313;
-    height: 50em;
-    background-repeat:no-repeat;
-    background-position: right;
-
-}
-
-.spide-formulaire2{
-    position: relative;
-    left:5%;
-    border-radius: 30px;
-    }
 
 /* mise en place footer*/
 footer{
