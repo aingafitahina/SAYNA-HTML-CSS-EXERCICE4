@@ -136,8 +136,14 @@ footer{
     #foot-web{
         display: none;
 
+
     }
-    
+    .section4-fond-rouge{
+        display: none;
+    }
+    .section5{
+        display: none;
+    }
 }
 @media screen and (min-width:769px){
     .foot-mobile{
@@ -154,7 +160,7 @@ footer{
     display: inline-flex;
     text-decoration: none;
     margin: auto;
-    width: 25%;
+    width:300px;
 }
 #logo-facebook1{
     
