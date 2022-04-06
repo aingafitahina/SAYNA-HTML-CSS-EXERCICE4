@@ -59,6 +59,14 @@ header{
         background-color: var(--red);
         
     }
+    .formulaire1{
+        text-align: center;
+        width: 90%;
+    }
+    .spide-formulaire2{
+        text-align: center;
+        width: 90%;
+    }
 }
 
 /* mise en forme section spide en rouge*/
@@ -170,7 +178,7 @@ footer{
     display: inline-flex;
     text-decoration: none;
     margin: auto;
-    width: 25%;
+    width: 300px;
 }
 #logo-facebook1{
     

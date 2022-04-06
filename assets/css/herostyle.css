@@ -10,9 +10,13 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'montserrat';
+    color:antiquewhite;
+}
 
 @font-face{
-    font-family: 'far_from_homecomingregular';
+    font-family: 'spide';
     src: url("../police/Far-From\ Homecoming\ Updated.otf");
 
 }
@@ -23,17 +27,18 @@
 
 /* header*/
 h1{
-    font-family:'far_from_homecomingregular' ;
+    font-family: 'spide';
     color: antiquewhite;
     font-size: 5.5em;
+    padding-top: 20%;
 }
 h2{
-    font-family: 'montserrat';
-    font-size: 20px;
+    font-family: 'spide';
+    font-size: 3.5em;
 }
 
 h3{
-    font-family:'far_from_homecomingregular' ;
+    font-family:'spide' ;
     color: antiquewhite;
 
     font-size: 3.5em; 
@@ -88,7 +93,7 @@ header{
     height: 30em;
 }
 h1{
-    padding-top: 20%;
+    
     font-family: 'spide';
     font-weight: 42;
 }
@@ -152,6 +157,17 @@ footer{
     .foot-right{
         float: right;
     }
+}
+
+/* section5*/
+.section5-background{
+    background: #114c92;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    left:20%;
+    opacity: 0.7;
+  
 }
 
 /* mise en forme des logo sur la section footer*/
