@@ -9,20 +9,17 @@
     --blue:#114c92;
     --yellow: #F1C530;
 }
+@font-face{
+    font-family:'far_from_homecoming';
+    src:url('../police/Far-From\ Homecoming\ Updated.otf ');
 
+}
 @font-face {
     font-family: 'montserrat';
     src: url('../police/Montserrat-VariableFont_wght.ttf');
 }
-@font-face{
-    font-family: 'far_from_homecomingregular';
-    src: url("../police/Far-From\ Homecoming\ Updated.otf");
 
-}
-h1{
-    font-family: 'far_from_homecomingregular' ;
-    color: aliceblue;
-}
+
 
 header{
     margin: 0;
@@ -43,11 +40,21 @@ header{
 /* responsive */
 
 @media screen and (max-width:766px) {
+   header{
+       background:none;
+       height: 0;
+   }
+   
     #navigation-web a{
         display: none;
           
     }
 
+    #titre{
+
+        font-size: 1em;
+        padding-top: 35%;
+    }
     #logo{
         
         display: inline-flex;
@@ -63,6 +70,9 @@ header{
         background-color: var(--red);
         
     }
+    .card1{
+        display: inline-block;
+    }
 }
 
 /*style super vilain */
@@ -76,10 +86,11 @@ header{
     background-position: center;
 }
 
-h1{
+#titre{
     color: aliceblue;
-    font-family: 'far_from_homecomingregular';
+    font-family: 'far_from_homecoming';
     font-size: 5em;
+    padding-top: 35%;
 }
 h6{
     font-family: 'montserrat';
@@ -88,22 +99,78 @@ h6{
 }
 p{
     font-family: 'montserrat';
+    color: aliceblue;
 }
 
 /* style pour chaque */
-h1{
-    font-family:'italic';
-    color: aliceblue;
-}
+
 .border2{
     border:5px solid rgb(26, 25, 25);
     border-top:none;
     border-radius:0 0 20px 20px;
     padding: 2%;
-    box-shadow: inset;
+    box-shadow: 0 4px 6px #000;
 }
 
 .section1{
     background: var(--yellow);
     height: auto;
+}
+.card1{
+    display: flex;
+    padding: 5%;
+}
+.card1-1{
+    padding: 5%;
+}
+
+/* mise en place footer*/
+footer{
+    background: black;
+    height: 15em;
+}
+
+
+
+@media  screen and (max-width:769px) {
+    #foot-web{
+        display: none;
+
+    }
+    
+}
+@media screen and (min-width:769px){
+    .foot-mobile{
+        display: none;
+    }
+    .foot-right{
+        float: right;
+    }
+}
+/* mise en forme des logo sur la section footer*/
+
+#logo-facebook{
+    display: inline-flex;
+    text-decoration: none;
+    margin: auto;
+    width: 300px;
+}
+#logo-facebook1{
+    
+    margin: 5%;
+    border-radius: 50%;
+    width: 10%;
+    padding: 5px;
+    
+}
+#selecteur{
+    background-color: var(--yellow);
+    border-radius: 20px;
+    width: 200%;
+    color: aliceblue;
+    border-style: none;
+}
+nav ul>li{
+    color: aliceblue;
+    font-family: 'montserrat';
 }

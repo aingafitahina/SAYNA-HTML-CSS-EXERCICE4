@@ -39,11 +39,16 @@ header{
 /* responsive */
 
 @media screen and (max-width:766px) {
-    #navigation-web a{
-        display: none;
-          
+    header{
+        background:none;
+        height: 0;
     }
-
+    #navigation-web a{
+        display: none;    
+    }
+    #titre{
+        font-size: 14px;
+    }
     #logo{
         
         display: inline-flex;
@@ -54,6 +59,10 @@ header{
 
     .spide{
         height: auto;
+    }
+    .section1{
+        background-position: center;
+        background-size: cover;
     }
     #spide-red{
         background-color: var(--red);
@@ -98,6 +107,7 @@ h6 , p{
    
     background-image: url(../images/img1.png);
     background-size: cover;
+   
     height: 60em;
     width: 100%; 
 }
@@ -106,7 +116,7 @@ h6 , p{
     top: 30%;
 }
 .bouton{
-    width: 200px;
+    width: 30%;
     border-radius: 30px;
 }
 figcaption , pre {
